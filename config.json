@@ -1,0 +1,8 @@
+{
+	"network"		: {
+		"hostname"	: "localhost",
+		"port"		: 3000
+	},
+
+	"database"		: "@replit/database"
+}
