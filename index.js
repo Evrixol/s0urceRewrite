@@ -135,14 +135,12 @@ function displayPlayers(socket) {
           utils.playerCreator('Server','IN-PROGRESS',5,6969,"Welcome to the S0urce.io Private Server 0.1 Alpha!",69)
         ]
       }
-    
     ]
   })
 }
 
 function addPlayer(data,id) {
   players[id] = data;
-  
 }
 
 function pkgEmitCreate(socket) {
@@ -153,6 +151,7 @@ function pkgEmitCreate(socket) {
 
 
 // some crazy stuff going on with MIME so i changed the position
+// Okay... what from? What was happening? -Vlad
 app.use('/client',express.static(__dirname+"/client"));
 app.use('/ads', utils.adRemover);
 
